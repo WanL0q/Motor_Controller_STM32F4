@@ -2,7 +2,26 @@
 Controlling Motor Speed with STM32F407 Kit
 ![Untitled](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/8cce08ca-791c-4710-b91d-051e33a09514)
 ## Forward Kinematics
-
+$$
+\begin{bmatrix}
+v_1 \\
+v_2 \\
+v_3 \\
+v_4 \\
+\end{bmatrix}
+\=\
+\begin{bmatrix}
+1/\sqrt{2} & 1/\sqrt{2} & -d \\
+1/\sqrt{2} & -1/\sqrt{2} & -d \\
+-1/\sqrt{2} & -1/\sqrt{2} & -d \\
+-1/\sqrt{2} & 1/\sqrt{2} & -d \\
+\end{bmatrix}
+\begin{bmatrix}
+v_x \\
+v_y \\
+\omega \\
+\end{bmatrix}
+$$
 ## Inverse Kinematics
 $$
 \begin{bmatrix}
@@ -24,7 +43,6 @@ v_y \\
 \omega \\
 \end{bmatrix}
 $$
-
 # Configure Pinout for STM32F407
 
 ![3](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/fe212cb8-827a-4e58-b334-2dcba47d07bd)
