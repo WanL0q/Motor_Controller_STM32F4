@@ -4,22 +4,21 @@ Controlling Motor Speed with STM32F407 Kit
 ## Forward Kinematics
 $$
 \begin{bmatrix}
+v_x \\
+v_y \\
+\omega \\
+\end{bmatrix}
+\=\
+\begin{bmatrix}
+1/2\sqrt{2} & 1/2\sqrt{2} & -1/2\sqrt{2} & -1/2\sqrt{2} \\
+1/2\sqrt{2} & -1/2\sqrt{2} & -1/2\sqrt{2} & 1/2\sqrt{2} \\
+-1/4d & -1/4d & -1/4d & -1/4d \\
+\end{bmatrix}
+\begin{bmatrix}
 v_1 \\
 v_2 \\
 v_3 \\
 v_4 \\
-\end{bmatrix}
-\=\
-\begin{bmatrix}
-1/\sqrt{2} & 1/\sqrt{2} & -d \\
-1/\sqrt{2} & -1/\sqrt{2} & -d \\
--1/\sqrt{2} & -1/\sqrt{2} & -d \\
--1/\sqrt{2} & 1/\sqrt{2} & -d \\
-\end{bmatrix}
-\begin{bmatrix}
-v_x \\
-v_y \\
-\omega \\
 \end{bmatrix}
 $$
 ## Inverse Kinematics
