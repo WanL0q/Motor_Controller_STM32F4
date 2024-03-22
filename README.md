@@ -21,5 +21,7 @@ Controlling Motor Speed with STM32F407 Kit
 |----------|-----------|-----------------|-------|-----------|-----------------|
 | **UART** | PA2       | USART2_TX       |       | PA3       | USART2_RX       |
 
-
-
+# Communication between ROS and STM32
+- Topic "cmd_vel": Longitudinal velocity and angular velocity set for the robot.
+- Topic "vel_set": Velocity is set for 4 motors.
+- Topic "vel_enc": Velocity of the 4 motors calculated from encoders.
