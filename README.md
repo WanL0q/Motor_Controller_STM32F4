@@ -4,34 +4,29 @@ Controlling Motor Speed with STM32F407 Kit
 
 ![2](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/6f5dd2d4-7768-4194-b607-57ba9f7a5470)
 
-*) Wheel 1:
-- TIM1_CH1 (PE9) : R_EN=L_EN= PWM 
-- GPIO_Output (PC5) : RPWM
-- GPIO_Output (PB0) : LPWM
-- TIM2_CH1 (PA5) : Channel A
-- TIM2_CH2 (PB3) : Channel B
+| Wheel | Pin       | Function        | Wheel | Pin       | Function        |
+|-------|-----------|-----------------|-------|-----------|-----------------|
+| **1**     | TIM1_CH1  | R_EN=L_EN= PWM | **2**     | TIM1_CH2  | R_EN=L_EN=PWM   |
+|       | PE9       | L_EN            |       | PE11      | L_EN            |
+|       |           | R_EN            |       |           | R_EN            |
+|       | PC5       | RPWM            |       | PB1       | RPWM            |
+|       | PB0       | LPWM            |       | PB2       | LPWM            |
+|       | TIM2_CH1  | Channel A       |       | TIM3_CH1  | Channel A       |
+|       | PA5       |                 |       | PA6       |                 |
+|       | TIM2_CH2  | Channel B       |        | TIM3_CH2  | Channel B       |
+|       | PB3       |                 |       | PB7       |                 |
+|-------|-----------|-----------------|-------|-----------|-----------------|
+| **3**     | TIM1_CH3  | R_EN=L_EN=PWM   | **4**    | TIM1_CH4  | R_EN=L_EN=PWM   |
+|       | PE13      | L_EN            |       | PE14      | L_EN            |
+|       |           | R_EN            |       |           | R_EN            |
+|       | PB12      | RPWM            |       | PB14      | RPWM            |
+|       | PB13      | LPWM            |       | PB15      | LPWM            |
+|       | TIM4_CH1  | Channel A       |       | TIM5_CH1  | Channel A       |
+|       | PD12      |                 |       | PA0       |                 |
+|       | TIM4_CH2  | Channel B       |       | TIM5_CH2  | Channel B       |
+|       | PB7       |                 |       | PA1       |                 |
+|-------|-----------|-----------------|-------|-----------|-----------------|
+| **UART**  | PA2       | USART2_TX       |       | PA3       | USART2_RX       |
 
-*) Wheel 2:
-- TIM1_CH2 (PE11) : R_EN=L_EN=PWM
-- GPIO_Output (PB1) : RPWM
-- GPIO_Output (PB2) : LPWM
-- TIM3_CH1 (PA6) : Channel A
-- TIM3_CH2 (PB7) : Channel B
 
-*) Wheel 3:
-- TIM1_CH3 (PE13) : R_EN=L_EN=PWM
-- GPIO_Output (PB12) : RPWM
-- GPIO_Output (PB13) : LPWM
-- TIM4_CH1 (PD12) : Channel A
-- TIM4_CH2 (PB7) : Channel B
-
-*) Wheel 4
-- TIM1_CH4 (PE14) : R_EN=L_EN=PWM	
-- GPIO_Output (PB14) : RPWM
-- GPIO_Output (PB15) : LPWM
-- TIM5_CH1 (PA0) : Channel A
-- TIM5_CH2 (PA1) : Channel B
-*) UART
-- PA2: USART2_TX
-- PA3: USART2_RX
 ![Untitled](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/8cce08ca-791c-4710-b91d-051e33a09514)
