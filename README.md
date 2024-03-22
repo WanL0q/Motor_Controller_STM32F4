@@ -11,7 +11,7 @@ v_2 \\
 v_3 \\
 v_4 \\
 \end{bmatrix}
-\=
+\=\
 \begin{bmatrix}
 -1/\sqrt{2} & 1/\sqrt{2} & d \\
 -1/\sqrt{2} & -1/\sqrt{2} & d \\
