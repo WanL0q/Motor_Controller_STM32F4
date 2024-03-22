@@ -42,6 +42,8 @@ v_y \\
 \omega \\
 \end{bmatrix}
 $$
+## PID Controller
+
 # Configure Pinout for STM32F407
 
 ![3](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/fe212cb8-827a-4e58-b334-2dcba47d07bd)
