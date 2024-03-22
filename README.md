@@ -20,17 +20,18 @@ Configure pin_outs for STM32F407
 
 *) Wheel 3:
 - TIM1_CH3 (PE13) : R_EN=L_EN=PWM
-GPIO_Output (PB12) : RPWM
-GPIO_Output (PB13) : LPWM
-TIM4_CH1 (PD12) : Channel A
-TIM4_CH2 (PB7) : Channel B
+- GPIO_Output (PB12) : RPWM
+- GPIO_Output (PB13) : LPWM
+- TIM4_CH1 (PD12) : Channel A
+- TIM4_CH2 (PB7) : Channel B
 
 *) Wheel 4
-TIM1_CH4 (PE14) : R_EN=L_EN=PWM	
-GPIO_Output (PB14) : RPWM
-GPIO_Output (PB15) : LPWM
-TIM5_CH1 (PA0) : Channel A
-TIM5_CH2 (PA1) : Channel B
-
-PA2: USART2_TX
-PA3: USART2_RX
+- TIM1_CH4 (PE14) : R_EN=L_EN=PWM	
+- GPIO_Output (PB14) : RPWM
+- GPIO_Output (PB15) : LPWM
+- TIM5_CH1 (PA0) : Channel A
+- TIM5_CH2 (PA1) : Channel B
+*) UART
+- PA2: USART2_TX
+- PA3: USART2_RX
+![Untitled](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/8cce08ca-791c-4710-b91d-051e33a09514)
