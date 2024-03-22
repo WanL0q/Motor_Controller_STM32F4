@@ -31,7 +31,7 @@ $$
 
 | Wheel    | Pin       | Function        | Wheel | Pin       | Function        |
 |----------|-----------|-----------------|-------|-----------|-----------------|
-| **1**    | PE9       | R_EN=L_EN= PWM  | **2** | PE11      | R_EN=L_EN=PWM   |
+| **1**    | PE9       | R_EN=L_EN= PWM  |**2** | PE11      | R_EN=L_EN=PWM   |
 |          | PC5       | RPWM            |       | PB1       | RPWM            |
 |          | PB0       | LPWM            |       | PB2       | LPWM            |
 |          | PA5       | Encoder CH_A    |       | PA6       | Encoder CH_A    |
