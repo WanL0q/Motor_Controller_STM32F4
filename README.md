@@ -45,7 +45,8 @@ $$
 ## PID Controller
 ![image](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/dc0a0fbd-e9ea-480a-b046-0eff0817b364)
 
-![image](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/9c9a5a23-dbc3-4884-8ef3-7bee24f13e1b)
+![Screenshot 2024-03-23 121907](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/96d39baf-8c5f-40b6-9763-4bf98f72518c)
+
 
 
 # Configure Pinout for STM32F407
