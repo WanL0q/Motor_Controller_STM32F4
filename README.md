@@ -1,6 +1,7 @@
 # Motor_Controller_STM32F4
 Controlling Motor Speed with STM32F407 Kit
-![Untitled](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/8cce08ca-791c-4710-b91d-051e33a09514)
+![Omni](https://github.com/WanL0q/Motor_Controller_STM32F4/assets/134664967/99aede8d-104e-424b-aa30-9371708fc309)
+
 ## Forward Kinematics
 $$
 \begin{bmatrix}
@@ -10,9 +11,9 @@ v_y \\
 \end{bmatrix}
 \=\
 \begin{bmatrix}
+-1/2\sqrt{2} & 1/2\sqrt{2} & 1/2\sqrt{2} & -1/2\sqrt{2} \\
 1/2\sqrt{2} & 1/2\sqrt{2} & -1/2\sqrt{2} & -1/2\sqrt{2} \\
-1/2\sqrt{2} & -1/2\sqrt{2} & -1/2\sqrt{2} & 1/2\sqrt{2} \\
--1/4d & -1/4d & -1/4d & -1/4d \\
+1/4d & 1/4d & 1/4d & 1/4d \\
 \end{bmatrix}
 \begin{bmatrix}
 v_1 \\
@@ -31,10 +32,10 @@ v_4 \\
 \end{bmatrix}
 \=\
 \begin{bmatrix}
-1/\sqrt{2} & 1/\sqrt{2} & -d \\
-1/\sqrt{2} & -1/\sqrt{2} & -d \\
--1/\sqrt{2} & -1/\sqrt{2} & -d \\
--1/\sqrt{2} & 1/\sqrt{2} & -d \\
+-1/\sqrt{2} & 1/\sqrt{2} & d \\
+1/\sqrt{2} & 1/\sqrt{2} & d \\
+1/\sqrt{2} & -1/\sqrt{2} & d \\
+-1/\sqrt{2} & -1/\sqrt{2} & d \\
 \end{bmatrix}
 \begin{bmatrix}
 v_x \\
